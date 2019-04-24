@@ -1,4 +1,5 @@
-git init
-git clone
-git log
-git push
+git add <path>
+    this will stage all local changes
+    to any files/folders at/under that path.
+    usually: "git add ." from the top-level repo folder.
+    (because "." in bash means, the current directory.)
